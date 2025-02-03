@@ -1,6 +1,20 @@
 // Fundamental data types
 
+/*
+Multi
+line
+comment
+*/
+
+/*
+integer
+string
+float
+boolean
+*/
+
 // Typeof
+alert(typeof 6.4);
 
 // Let vs Const vs Var
 
