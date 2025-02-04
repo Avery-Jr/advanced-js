@@ -36,10 +36,32 @@ alert(age);
 
 // Essential Operations
 
+let sum = age + 3;
+console.log(sum);
+
+sum = sum + 3;
+sum += 3;
+console.log(sum);
+sum = sum - 4;
+sum -= 4;
+console.log(sum);
+sum = sum * 2;
+sum *= 2;
+console.log(sum);
+sum = sum / 5;
+sum /= 5;
+console.log(sum);
 // Additional operations
 
 // User Input
 
+let food = prompt("What's your favorite food?")
+//Method 1
+console.log("Your favorite food is " + food);
+//Method 2
+console.log("Your favorite food is " , food);
+//Method 3
+console.log('Your favorite food is ${food}');
 
 // Concatenation v. templates
 
