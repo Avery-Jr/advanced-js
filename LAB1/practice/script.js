@@ -51,19 +51,31 @@ console.log(sum);
 sum = sum / 5;
 sum /= 5;
 console.log(sum);
-// Additional operations
-
-// User Input
-
-let food = prompt("What's your favorite food?")
-//Method 1
-console.log("Your favorite food is " + food);
-//Method 2
-console.log("Your favorite food is " , food);
-//Method 3
-console.log('Your favorite food is ${food}');
 
 // Concatenation v. templates
+// User Input
+let friend = prompt("Who is your best friend?")
+//Method 1
+console.log("Your best friend is " + friend);
+//Method 2
+console.log("Your best friend is ", friend);
+//Method 3
+console.log("Your best friend is ${friend}");
+
+// Additional operations
+// equal
+console.log(34 == 72)
+// less than
+console.log(34 < 72);
+// greater than
+console.log(34 > 72);
+// less than or equal
+console.log(34 <= 72);
+// greater than or equal
+console.log(34 >= 72);
+// not equal
+console.log(34 != 72);
+console.log("am i" == "am i not");
 
 // String methods
 
