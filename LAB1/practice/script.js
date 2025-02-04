@@ -75,10 +75,20 @@ console.log(34 <= 72);
 console.log(34 >= 72);
 // not equal
 console.log(34 != 72);
-console.log("am i" == "am i not");
+
+console.log("The answer is:","23" == 23);
 
 // String methods
 
+const name1 = "avery"
+//uppercase
+console.log(name1.toUpperCase)
+//lowercase
+console.log(name1.toLowerCase)
+//locale uppercase
+console.log(name1.toLocaleUpperCase)
+//locale lowercase
+console.log(name1.toLocaleLowerCase)
 
 // Comparison operators - true or false?
 
