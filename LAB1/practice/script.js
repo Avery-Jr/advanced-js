@@ -24,7 +24,6 @@ let age = 20;
 age = 10;
 
 const z = "Hey there";
-z = "Here's johnny";
 
 // Reassignment (no let)
 
@@ -89,6 +88,12 @@ console.log(name1.toLowerCase)
 console.log(name1.toLocaleUpperCase)
 //locale lowercase
 console.log(name1.toLocaleLowerCase)
+
+//Math methods
+
+console.log(Math.random() * 100);
+
+console.log(Math.floor(9.3));
 
 // Comparison operators - true or false?
 
