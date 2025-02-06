@@ -137,8 +137,8 @@ console.log(slpitAllowance);
 // It's $43 for each of them
 
 // 2. How many games can Jordan buy with their cut?
-let jGames = slpitAllowance / game;
-console.log(sibling1 + " will be able to buy " + Math.floor(jGames));
+let jGames = Math.floor(slpitAllowance / game);
+console.log(sibling1 + " will be able to buy " + jGames);
 //At most 2 games
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
