@@ -142,8 +142,10 @@ console.log(sibling1 + " will be able to buy " + jGames);
 //At most 2 games
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
-game - 1;
+game + 1;
+//$16.99
 shoes / 2;
+//$44.89
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
 //I will do 1 week first
@@ -154,10 +156,16 @@ weeklyPairs = pairs.toFixed(0)
 console.log( sibling2 + " and " + sibling3 + " will be able to buy " + weeklyPairs + " per week. Meaning that can buy " + weeklyPairs * 4 + " in a month.");
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+let twinGames = Math.floor(twinsAllowance / game);
+//86/16.99
+console.log("They can buy " + twinGames + " games.");
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
+console.log("The three siblings are " + sibling1 + ", " + sibling2 + ", and " + sibling3);
 
 // 7. Use console.log() and a built-in method to count how many characters are in Ricardo's name.
+console.log(sibling3 + " has this many characthers in his name.")
+console.log(`${sibling3} ${sibling3.length}`);
 
 // 8. Use console.log() and a built-in method to print out the string "RICARDO MONTOYA DE LA ROSA RAMIREZ"
 
